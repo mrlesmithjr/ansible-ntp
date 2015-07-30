@@ -3,3 +3,7 @@
 - include: debian.yml
   tags: [config_ntp]
   when: ansible_os_family == "Debian"
+
+- include: centos.yml
+  tags: [config_ntp]
+  when: ansible_os_family == "RedHat"
