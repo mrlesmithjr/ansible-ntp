@@ -1,0 +1,9 @@
+---
+- name: centos | installing packages
+  yum: name={{ item }} state=present
+  with_items:
+    - ntp
+
+- name: centos | configuring ntp
+  template: src=etc/ntp.conf.j2 dest=/etc/ntp.conf owner=root group=root mode=0644
+  notify: restart ntp
