@@ -17,14 +17,24 @@ filegen clockstats file clockstats type day enable
 # on 2011-02-08 (LP: #104525). See http://www.pool.ntp.org/join.html for
 # more information.
 {% if ntp_master %}
-{%   for server in ntp_master_servers %}
+{%   if ntp_master_servers is defined %}
+{%     for server in ntp_master_servers %}
 server {{ server }}
-{%   endfor %}
+{%     endfor %}
+{%   endif %}
 {% endif %}
 {% if not ntp_master %}
-{%   for server in ntp_servers %}
+{%   if ntp_servers is defined %}
+{%     for server in ntp_servers %}
 server {{ server }}
-{%   endfor %}
+{%     endfor %}
+{%   endif %}
+{%   if ntp_servers is not defined %}
+server 0.ubuntu.pool.ntp.org
+server 1.ubuntu.pool.ntp.org
+server 2.ubuntu.pool.ntp.org
+server 3.ubuntu.pool.ntp.org
+{%   endif %}
 {% endif %}
 # Use Ubuntu's ntp server as a fallback.
 server ntp.ubuntu.com
