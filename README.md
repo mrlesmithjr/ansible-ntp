@@ -3,6 +3,11 @@ Role Name
 
 An [Ansible] role to install/configure NTP
 
+Build Status
+------------
+
+[![Build Status](https://travis-ci.org/mrlesmithjr/ansible-ntp.svg?branch=master)](https://travis-ci.org/mrlesmithjr/ansible-ntp)
+
 Requirements
 ------------
 
