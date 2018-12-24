@@ -1,11 +1,10 @@
 ---
 - name: debian | installing packages
   apt:
-    name: "{{ item }}"
+    name:
+      - 'ntp'
     state: "present"
   become: true
-  with_items:
-    - 'ntp'
 
 - name: debian | configuring ntp
   template:
