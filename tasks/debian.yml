@@ -5,7 +5,7 @@
     state: present
   become: true
   register: result
-  until: result is succesful
+  until: result is successful
 
 - name: debian | configuring ntp
   template:
