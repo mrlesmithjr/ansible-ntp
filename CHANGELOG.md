@@ -1,3 +1,9 @@
+commit 0ad0789f64b95a192d4ea4b4524c80d4a7404ee3
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Tue Apr 7 01:09:54 2020 -0400
+
+    Added: New files, etc. from cookiecutter template
+
 commit 981f3125e1f772a51e9b42cd6ecbe3b5d1202549
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Tue Apr 7 01:09:29 2020 -0400
