@@ -1,3 +1,57 @@
+commit 92f72f4f226ea125c33924c825fd958cb27a7d91
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 10:04:44 2020 -0400
+
+    Consolidated RedHat package installs
+    
+    To simplify package install, we use package rather than yum/dnf
+
+commit 5dd3ac99cba78bac4cc9f3b15e9a86130c5d2b17
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 10:04:12 2020 -0400
+
+    Updated Galaxy info
+
+commit 5ddf9bb02413fd7a8c9b48c2cc1310af59384dda
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 10:03:51 2020 -0400
+
+    Disabled CentOS 8 testing
+    
+    CentOS 8 uses Chrony and no NTP package
+
+commit 686d87a1dcbd21e64a38555bf8b3b09bf1d2714a
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 09:55:11 2020 -0400
+
+    Updated Molecule tests
+
+commit fc4317fa47782cf7be507cedb424ab4162b4f58e
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 09:54:57 2020 -0400
+
+    Added linting configs
+
+commit dba68f859fb1a9010924eac87c3189db3ec1d3e4
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 09:54:19 2020 -0400
+
+    Updated Python requirements
+
+commit b6b65ba7183b6672260a32a5eb5613578949ba02
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Thu Sep 24 09:54:05 2020 -0400
+
+    Updated CI-Tests
+
+commit 4584e8a2288d028748eae217ea453126cedb2233
+Author: Larry Smith Jr <mrlesmithjr@gmail.com>
+Date:   Tue Apr 7 01:14:28 2020 -0400
+
+    Cleaned up tasks, etc.
+    
+    Cleaned up formatting, etc.
+
 commit 0ad0789f64b95a192d4ea4b4524c80d4a7404ee3
 Author: Larry Smith Jr <mrlesmithjr@gmail.com>
 Date:   Tue Apr 7 01:09:54 2020 -0400
