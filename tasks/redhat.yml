@@ -1,21 +1,11 @@
 ---
 - name: redhat | installing packages
-  yum:
+  package:
     name: ntp
     state: present
   become: true
   register: result
   until: result is successful
-  when: ansible_distribution != "Fedora"
-
-- name: redhat | installing packages
-  dnf:
-    name: ntp
-    state: present
-  become: true
-  register: result
-  until: result is successful
-  when: ansible_distribution == "Fedora"
 
 - name: redhat | configuring ntp
   template:
