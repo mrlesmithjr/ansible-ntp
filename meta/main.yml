@@ -11,25 +11,14 @@ galaxy_info:
         - 7
     - name: Fedora
       versions:
-        - 24
-        - 25
-        - 26
-        - 27
-        - 28
-        - 29
+        - all
     - name: Ubuntu
       versions:
-        - bionic
-        - precise
-        - trusty
-        - xenial
+        - all
     - name: Debian
       versions:
-        - jessie
-        - stretch
-        - wheezy
+        - all
   galaxy_tags:
-    - networking
     - system
 
 dependencies: []
