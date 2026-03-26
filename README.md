@@ -1,4 +1,7 @@
-# ansible-ntp
+> [!CAUTION]
+> **This project is archived and no longer maintained.**
+> Archived: 2026-03-26
+> Reason: Use ansible-chrony instead (actively maintained)# ansible-ntp
 
 Ansible role to install/configure NTP
 
